@@ -1,4 +1,4 @@
-# Whiteboard
+# Whiteboard_Display&Save_Image
 
 Before executing server.js, you must write the following command in your terminal:
 
