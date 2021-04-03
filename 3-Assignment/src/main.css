@@ -1,0 +1,426 @@
+	/* HEADER */
+
+.header{
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 70px;
+	line-height: 70px;
+	background-color: #08090B;
+	position: fixed;
+	top: 0;
+	z-index: 50;
+}
+
+.header .header-logo{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 110px;
+	color: #FFFFFF
+}
+
+.header .header-logo{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 100px;
+	margin-right: -98px;
+	color: white;
+}
+
+.header .header-menu{
+	float: right;
+	margin-right: 480px;
+}
+
+.header .header-menu a {
+	margin-right: 15px;
+	color: #FFFFFF;
+}
+
+.header .header-menu a:hover {
+	color: #3498db
+}
+
+.header .header-menu button{
+	position: fixed;
+	width: 7%;
+	text-align: right;
+	top: 20px;
+	margin-left: 650px;
+}
+
+.header .header-menu button{
+	margin-right: 20px;
+	color: #FFFFFF;
+}
+
+.header .header-menu button a {
+	margin-right: 0px;
+	color: #FFFFFF;
+}
+
+.header .header-menu button a:hover {
+	color: #FFFFFF;
+}
+
+
+						/* BANNER */
+
+
+.banner {
+	background-color: #000000;
+}
+.banner .img {
+	position: relative;
+	width: 200%;
+}
+
+.banner .banner-content{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 40%;
+	background-color: #08090B;
+}
+
+.banner .banner-content1{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 120%;
+	font-family: 'Lobster', cursive;
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2{
+	color: #000000
+}
+
+.banner .banner-content button a{
+	color: #000
+}
+
+
+						/* CONTACT PAGE */
+
+.banner_contact .banner-image {
+	position: relative;
+}
+
+.banner_contact .banner-content_contact{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 18%;
+}
+
+.banner_contact .banner-content_contact h1{
+	color: #000;
+}
+
+
+/* MOVIE 01 */ 
+
+
+.movie-cover {
+	position: absolute;
+	width: 13%;
+	text-align: left;
+	top: 32%;
+	margin-left: 375px;
+}
+
+.movie-details{
+	position: absolute;
+	width: 29%;
+	text-align: left;
+	top: 32%;
+	margin-left: 680px;
+}
+
+.movie-details .title{
+	color: #000;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+.movie-details .descritpion{
+	color: rgb(92, 48, 48);
+	font-size: 14px;
+	font-family: monospace;
+}
+
+.movie-details .release{
+	color: rgb(92, 48, 48);
+	font-size: 20px;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+/* FORM MOVIE 01 */
+
+.form {
+	position: absolute;
+	width: 45%;
+	text-align: left;
+	top: 75%;
+	margin-left: 425px;
+}
+
+.form .label{
+	color: #08090B;
+	font-size: 30px;
+}
+
+.form .sub-label{
+	color: red;
+	font-size: 14px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+
+/* PERSON 01 */
+.person-cover {
+	position: absolute;
+	width: 15%;
+	text-align: left;
+	top: 103%;
+	margin-left: 375px;
+}
+
+.person-cover img{
+	visibility: visible;
+}
+
+.person-details{
+	position: absolute;
+	width: 29%;
+	text-align: left;
+	top: 103%;
+	margin-left: 680px	;
+}
+
+.person-details .title{
+	color: #000;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+.person-details .descritpion{
+	color: rgb(92, 48, 48);
+	font-size: 14px;
+	font-family: monospace;
+}
+
+/* FORM PERSON */
+.form-2 {
+	position: absolute;
+	width: 45%;
+	text-align: left;
+	top: 150%;
+	margin-left: 375px;
+}
+
+.form-2 .label{
+	color: #08090B;
+	font-size: 30px;
+}
+
+.form-2 .sub-label{
+	color: red;
+	font-size: 14px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+/* MOVIE 02 */ 
+
+
+.movie-cover-2 {
+	position: absolute;
+	width: 15%;
+	text-align: left;
+	top: 175%;
+	margin-left: 375px;
+}
+
+.movie-details-2{
+	position: absolute;
+	width: 29%;
+	text-align: left;
+	top: 175%;
+	margin-left: 680px;
+}
+
+.movie-details-2 .title{
+	color: #000;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+.movie-details-2 .descritpion{
+	color: rgb(92, 48, 48);
+	font-size: 14px;
+	font-family: monospace;
+}
+
+.movie-details-2 .release{
+	color: rgb(92, 48, 48);
+	font-size: 20px;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+
+/* PLAY AGAIN */
+.form-3 {
+	position: absolute;
+	width: 45%;
+	text-align: left;
+	top: 223%;
+	margin-left: 425px;
+}
+
+.form-3 .label{
+	color: #08090B;
+	font-size: 30px;
+}
+
+.form-3 .sub-label{
+	color: red;
+	font-size: 14px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+
+
+
+					 /* FOOTER */
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	position: relative; 
+
+	padding: 50px 60px 40px;
+	margin-top: -3%;
+	overflow: hidden;
+}
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0 0 10px;
+}
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons img{
+	background-color:  rgb(0,0,0,0);
+	margin-right: 10px;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 40px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}

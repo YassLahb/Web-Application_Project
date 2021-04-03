@@ -1,0 +1,163 @@
+<DOCTYPE HTML!>
+    <html>
+  
+    <!-- head -->
+      <head>
+          <meta charset="utf-8">
+          <title> Movies Quizz </title>
+      <!-- css -->
+          <link rel="stylesheet" href="./src/main.css">
+          <link rel="stylesheet" href="./src/bulma.css">
+   
+      <!-- css -->
+      <!-- font -->
+          <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+      <!-- font --> 
+      </head>
+  
+    <!-- body -->
+      <body class="body">
+  
+    <!-- header -->
+        <div class="block">
+          <header class="header"> 
+            <a href="index.html" class="header-logo">MOVIES</a>
+            <a href="index.html" class="header-logo" style="color: #9AA5B7">QUIZZ </a>
+          </header>
+        </div>
+  
+    <!-- header -->
+        
+    <!-- banner -->
+        <div class="block">
+          <div class="banner">
+            <div class="banner_contact" >
+              <img src="./src/img/bg_contact.jpg" alt="" class="banner-image">
+              <img src="./src/img/bg_contact.jpg" alt="" class="banner-image">
+
+              <div class="banner-content_contact">
+                <h1 class="title is-1">Welcome to the quizz</h1> 
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- banner -->
+    
+    <!-- Movie 01 information-->
+
+      <div>
+        <div class="movie-cover">
+          <img src="" id="Movie-cover-1" alt="">
+        </div>
+        <div class="movie-details">
+          <p class="title" id="movie-title-1"></p> 
+          <p class="descritpion" id="movie-description-1"></p>
+          <p class="release" id="movie-release-1"></p>
+        </div>
+      </div>
+
+
+      <div class="block">
+        <div class="form">
+         <div class="field">
+            <label class="label">Production Team</label>
+            <p class="sub-label" id="Hint-1">Please enter the director name or one of the actors movie</p>
+            <div class="control">
+              <input class="input" id="ProductionInput" type="text" placeholder="e.g Johnny depp">
+            </div>
+          </div>
+          
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button"  id="Btn-envoyer">Submit</button>
+            </div>
+          </div>
+        </div>  
+      </div>  
+  
+      <!-- Person 01 Information-->
+      <div class="block" id="person-details">
+        <div class="person-cover">
+          <img id="person-cover-1" src="" alt="">
+        </div>
+        <div class="person-details">
+          <p class="title" id="person-name">HERE NAME</p> 
+          <p class="descritpion" id="person-role">here role</p>
+        </div>  
+      </div>
+  
+      <!-- Person 1 inputs-->
+      <div class="block">
+        <div class="form-2" id="form-2">
+         <div class="field2">
+            <label class="label" id="Title-person-1">Acting Part</label>
+            <p class="sub-label" id="Hint-2">Please enter the a name of a movie where this person was actor or director</p>
+            <div class="control">
+              <input class="input" id="ActingInput" type="text" placeholder="e.g Pirates of the Caribbean: Dead Man's Chest">
+            </div>
+          </div>
+          
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button" id="Btn-envoyer-2">Submit</button>
+            </div>        
+          </div>
+        </div>  
+      </div>
+  
+      <!-- Movie 2 information-->
+      <div>
+        <div class="movie-cover-2">
+          <img src="#" id="movie-cover-3" alt="">
+        </div>
+        <div class="movie-details-2" id="movie-details-2">
+          <p class="title" id="movie-title-2"></p> 
+          <p class="descritpion" id="movie-description-2"></p>
+          <p class="release" id="movie-release-2"></p>
+        </div>
+      </div>
+  
+      <!-- Play Again -->
+      <div class="block">
+        <div class="form-3" id="form-3">
+         <div class="field2">
+            <label class="label" id="Title-person-1">Would you like to continue playing?</label>
+            <p class="sub-label" id="Hint-2">If you want to continue playing, click yes</p>
+            <div class="control">
+            </div>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button" id="Btn-replay">Yes, Of course</button>
+            </div>
+        </div>  
+      </div>
+
+    <!-- Movie 1 inputs-->
+    
+    </body>
+
+    <!--footer-->
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3><a href="index1.html" class="header-logo" style="color: white">MOVIES</a>
+        <a href="index1.html" class="header-logo" style="color: #9AA5B7"> QUIZZ </a></h3>
+        <p class="footer-company-name">Movies Quizz &copy; 2021</p>
+      </div>
+      <div class="footer-right">
+        <p>Contact-us</p>
+        <form action="Send" method="post">
+          <input type="text" name="email" placeholder="Email" />
+          <textarea name="message" placeholder="Message"></textarea>
+          <button>Send</button>
+        </form>
+      </div>
+    </footer>
+<!--footer -->
+  
+    <!-- body -->
+  
+    <!--<script src="app.js"></script>-->
+    <script src="app.js"></script>
+  
+    </html>
