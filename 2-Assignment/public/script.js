@@ -30,7 +30,7 @@ function Save_Img() {
 
 }
 function Saved_Img() { 
-    window.open('http://localhost:5000/images');
+    window.open('https://dry-harbor-92368.herokuapp.com/images');
 }
 
 // initiating 2D context on it
